@@ -246,9 +246,6 @@ header img {
     .header--image {
         display: none;
     }
-    hr {
-        margin: 0 15px;
-    }
     .header-div p {
         padding: 3px 25px;
     }
@@ -267,6 +264,17 @@ header img {
 .divTwo {
     display: inline-block;
     width: 48%;
+}
+
+@media (max-width: 500px) {
+    .sectionOne .divOne {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .sectionOne .divTwo {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
 
 .middle-img {
@@ -295,6 +303,26 @@ header img {
     margin-left: 12px;
 }
 
+@media (max-width: 500px) {
+    .sectionTwo {
+        display: flex;
+        flex-direction: column;
+    }
+    .div1 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .div2 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .div3 {
+        width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+    }
+}
+
 .sectionThree {
     margin: 45px 0;
 }
@@ -303,3 +331,5 @@ footer {
     margin: 55px 0;
     text-align: center;
 }
+
+ccte
