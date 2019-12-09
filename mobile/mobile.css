@@ -1,0 +1,308 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* Set every element's box-sizing to border-box */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+
+/* Your code starts here! */
+
+body {
+    margin: 0 4% 4% 4%;
+}
+
+nav {
+    background: rgba(0, 172, 230, .4);
+    height: 90px;
+    padding-top: 11px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+}
+
+nav a:hover {
+    color: black;
+}
+
+nav a {
+    font-family: 'Inconsolata', monospace;
+    margin-right: 4%;
+    margin-left: 4%;
+    text-decoration: none;
+    color: grey;
+}
+
+header {
+    margin: 120px;
+}
+
+.header-div {
+    display: inline-block;
+}
+
+.header-div {
+    width: 65%;
+    margin: 0 auto;
+}
+
+.header-div h1 {
+    font-size: 80px;
+    text-align: center;
+}
+
+.header-div p {
+    text-align: center;
+    border: 1px solid grey;
+    display: inline-block;
+    margin-left: 38%;
+    padding: 3px 40px;
+}
+
+header img {
+    width: 33%;
+    margin: 0 auto;
+}
+
+.sectionOne {
+    margin: 45px 0;
+}
+
+.divOne {
+    display: inline-block;
+    width: 48%;
+    margin-right: 40px;
+}
+
+.divTwo {
+    display: inline-block;
+    width: 48%;
+}
+
+.middle-img {
+    width: 100%;
+}
+
+.sectionTwo {
+    margin: 45px 0;
+}
+
+.div1 {
+    display: inline-block;
+    width: 32%;
+    margin-right: 12px;
+}
+
+.div2 {
+    display: inline-block;
+    width: 32%;
+    margin-right: 12px;
+}
+
+.div3 {
+    display: inline-block;
+    width: 32%;
+    margin-left: 12px;
+}
+
+.sectionThree {
+    margin: 45px 0;
+}
+
+footer {
+    margin: 55px 0;
+    text-align: center;
+}
+
+@media (min-width: 500px) {
+    nav {
+        display: flex;
+        background: none;
+        position: static;
+        margin-top: 22px;
+    }
+    nav a {
+        margin: 0 auto;
+        padding: 10px 0;
+    }
+    nav .logo {
+        display: none;
+    }
+    header {
+        margin-bottom: 40px;
+        margin-top: 15px;
+    }
+    .header-div {
+        margin: 0 auto;
+    }
+    .header--image {
+        display: none;
+    }
+    .divOne,
+    .divTwo {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .sectionTwo {
+        display: flex;
+        flex-direction: column;
+    }
+    .div1,
+    .div2,
+    .div3 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .div3 {
+        margin-left: 0;
+    }
+}
