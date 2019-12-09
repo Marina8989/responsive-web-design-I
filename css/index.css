@@ -184,23 +184,28 @@ nav a {
     color: grey;
 }
 
-
-/* 
 @media (max-width: 800px) {
     nav {
         display: flex;
-        flex-direction: row-reverse;
         position: static;
         background: none;
-        width: 100%;
+        align-items: center;
+        margin-top: 60px;
+    }
+    body {
+        position: relative;
     }
     nav .logo {
-        width: 20%;
+        /* display: none; */
+        position: absolute;
+        left: 33%;
+        top: -15px;
     }
     nav a {
-        width: 20%;
+        width: 100%;
+        margin: 0 auto;
     }
-} */
+}
 
 @media (max-width: 500px) {
     nav {
@@ -259,6 +264,7 @@ header img {
 @media (max-width: 800px) {
     header {
         margin-bottom: 40px;
+        margin-top: 30px;
     }
     header h1 {
         margin: 0 auto;
@@ -315,6 +321,7 @@ header img {
     .sectionOne .divOne {
         width: 100%;
         margin-bottom: 20px;
+        margin-right: 0;
     }
     .sectionOne .divTwo {
         width: 100%;
